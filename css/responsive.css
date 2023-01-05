@@ -61,3 +61,100 @@
     padding: 10px;
   }
 }
+@media (max-width: 654px) {
+  .menu-lista li a {
+    font-family: var(--fonte-principal);
+    color: blue !important;
+    margin-top: 50px;
+  }
+  .btn-contato {
+    padding: 10px 15px !important;
+    background-color: transparent;
+    margin: 0;
+    box-shadow: 0px 0px 0;
+  }
+  .btn-contato:hover {
+    background-color: transparent;
+  }
+  .menu-lista {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 0%;
+    background-color: #fff;
+    transition: all 0.6s linear;
+    text-align: center;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+    height: 0vh;
+  }
+  .menu.active .menu-lista {
+    height: 100vh;
+    visibility: visible;
+    overflow-y: auto;
+  }
+  .menu-lista li {
+    padding: 25px 0;
+    border-bottom: 2px solid rgba(43, 40, 135, 0.05);
+  }
+  .menu-lista li a {
+    padding: 30px;
+  }
+  .menu-lista li::after {
+    width: 0% !important;
+  }
+  .menu-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  .hamburguer {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  .hamburguer::after,
+  .hamburguer::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: currentColor;
+    transition: 0.3s;
+  }
+  .menu.active .hamburguer {
+    border-top-color: transparent;
+  }
+  .container-menu-footer-mobile {
+    display: block;
+    background-color: var(--cor-cinza);
+  }
+  .lista-menu-footer-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lista-menu-footer-mobile a {
+    display: block;
+    padding: 15px 20px;
+    color: #248ece;
+  }
+  .lista-menu-footer-mobile li:last-child {
+    background-color: #248ece;
+    width: 25%;
+    text-align: center;
+  }
+  .fa-solid,
+  .fa-brands {
+    font-size: 20px;
+  }
+  .branco {
+    color: #fff;
+  }
+}

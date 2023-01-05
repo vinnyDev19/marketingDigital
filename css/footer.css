@@ -13,7 +13,7 @@ footer {
 
   gap: 20px;
 }
-.box-logo img {
+.quebra-logo img {
   display: block;
   height: 73px;
   object-fit: contain;
@@ -54,7 +54,7 @@ footer {
   height: 20px;
 }
 
-.box-title-footer > h4 {
+.quebra-title-footer > h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
@@ -73,7 +73,7 @@ footer {
     border-bottom: 1px solid rgba(255, 255, 255, 0.164);
     padding: 5px 0;
 }
-.box-servicos,.box-institucional{
+.quebra-servicos,.quebra-institucional{
     width: 230px;
 }
 

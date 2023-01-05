@@ -1,18 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-:root{
-    --fonte-principal:'Poppins', sans-serif;
-    --degrade:linear-gradient(90deg, #ee3a78 0%, #ffbb17 100%);
-    --cor-cinza:#313131;
-    --cor-cinza-claro:#777;
-    --cor-azul:#01d5c9;
-    --cor-roxa:#453074;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("clientes.css");
+@import url("footer.css");
+@import url("header.css");
+@import url("reset.css");
+@import url("servicos.css");
+@import url("slide.css");
+@import url("sobre.css");
+
+:root {
+  --fonte-principal: "Poppins", sans-serif;
+  --degrade: linear-gradient(90deg, #ee3a78 0%, #ffbb17 100%);
+  --cor-cinza: #313131;
+  --cor-cinza-claro: #777;
+  --cor-azul: #01d5c9;
+  --cor-roxa: #453074;
 }
-.container-main{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 10px 15px;
-    max-width: 100%;
+html {
+  scroll-behavior: smooth;
 }
-body{
-    position: relative;
+.container-main {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  max-width: 100%;
+}
+body {
+  position: relative;
+}
+
+.whats-flutuando {
+  position: fixed;
+  right: 10px;
+  bottom: 60px;
+  animation: flutuar 2s backwards infinite;
+}
+@keyframes flutuar {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.whats-flutuando a img {
+  width: 50px;
+}
+.container-menu-footer-mobile{
+    display: none;
 }

@@ -1,4 +1,4 @@
-.box-clientes {
+.quebra-clientes {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -7,42 +7,41 @@
   padding-top: 100px;
 }
 
-.box-clientes-left > p {
+.quebra-clientes-left > p {
   color: var(--cor-azul);
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1.5px;
 }
-.box-clientes-left span {
+.quebra-clientes-left span {
   text-shadow: 2px 2px 0 #01d5c9;
 }
 
-.box-clientes-left h3 {
+.quebra-clientes-left h3 {
   font-size: 45px;
   line-height: 53px;
   font-weight: 800;
   text-align: center;
   margin: 20px 30px;
 }
-.box-clientes-right {
+.quebra-clientes-right {
   max-width: 500px;
   text-align: left;
   line-height: 28px;
 }
-.box-img-clientes {
+.quebra-img-clientes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 30px 0;
 }
-.box-img-clientes a img {
+.quebra-img-clientes a img {
   box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.177);
   padding: 12px;
   margin: 15px 0;
   transition: all 0.6s ease;
-
 }
-.box-img-clientes a img:hover {
+.quebra-img-clientes a img:hover {
   transition: all 0.6s ease;
   box-shadow: 5px 5px 0 0 #ff4073;
   transform: scale(1.1);
