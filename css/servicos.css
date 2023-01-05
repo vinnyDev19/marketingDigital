@@ -88,6 +88,7 @@
 }
 .box-contato span {
     color:#fff;
+    text-align: center;
 }
 .box-contato a {
     background-color: var(--cor-roxa);

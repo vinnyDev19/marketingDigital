@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-top: 100px;
 }
 .slider {
   display: none;
@@ -57,11 +58,12 @@
 .conteudo-slide h1 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 900;
-  font-size: 108px;
+  font-size: clamp(1.5em,2em + 3vw,5em);
   text-align: center;
   line-height: 100px;
   text-shadow: 3px 2px 0 #01d5c9;
   color: #fff;
+  max-width: 100%;
 }
 .buttons-slide {
   text-align: center;

@@ -1,0 +1,79 @@
+footer {
+  background-color: var(--cor-roxa);
+  padding: 20px 0;
+  font-family: var(--fonte-principal);
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  gap: 20px;
+}
+.box-logo img {
+  display: block;
+  height: 73px;
+  object-fit: contain;
+}
+
+.endereco-footer p {
+  margin: 35px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.redes-sociais ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.redes-sociais ul li a {
+  padding: 10px 13px;
+  color: #fff;
+  border-radius: 50%;
+}
+.twt {
+  background-color: #00acee;
+}
+.ig {
+  background-color: #e1306c;
+}
+.lk {
+  background-color: #0e76a8;
+}
+.you {
+  background-color: #ff0000;
+}
+.fa {
+  background-color: #4267b2;
+}
+.fa-brands {
+  width: 20px;
+  height: 20px;
+}
+
+.box-title-footer > h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.menu-lista-footer li a {
+  padding: 10px 0;
+  margin: 5px 0;
+  color: #fff;
+}
+.menu-lista-footer li a:hover {
+   text-decoration: underline;
+  }
+.menu-lista-footer li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+    padding: 5px 0;
+}
+.box-servicos,.box-institucional{
+    width: 230px;
+}
+
