@@ -1,0 +1,38 @@
+@import url("geral.css");
+.sobre{
+padding: 100px 0;
+text-align: center;
+font-family: var(--fonte-principal);
+margin: 30px 0;
+}
+.sobre > p {
+    color: var(--cor-azul);
+    font-size: 14px;
+}
+.sobre h3{
+    font-size: 45px;
+    font-weight:800;
+    line-height: 53px;
+    color: var(--cor-cinza);
+    margin:30px 0;
+}
+.sobre h3 span{
+    text-shadow: 2px 2px 0 #01d5c9;
+}
+.descricao p{
+    color: var(--cor-cinza-claro);
+    padding: 40px;
+}
+.btn-sobre a{
+    display: inline-block;
+    background-color: var(--cor-roxa);
+    padding:21px 42px ;
+    box-shadow: 4px 4px 0 0 #01d5c9;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .5s ease;
+} 
+.btn-sobre a:hover{
+    background-color:#ff4073;
+}
+

@@ -1,0 +1,59 @@
+@import url("geral.css");
+
+header {
+  height: 100px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  filter: drop-shadow(10px -8px 10px #000);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+.logo {
+  height: 50px;
+  object-fit: contain;
+}
+.menu-lista {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-lista li a {
+  font-family: var(--fonte-principal);
+  padding: 10px 15px;
+  color: var(--cor-cinza);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.menu-lista li::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: var(--cor-azul);
+  transition: 0.3s linear;
+}
+.menu-lista li:hover::after {
+  width: 100%;
+}
+.menu-lista li:last-child:hover::after {
+  width: 0%;
+}
+
+.btn-contato {
+  background-color: var(--cor-roxa);
+  padding: 22px 25px !important;
+  color: #fff !important;
+  box-shadow: 4px 4px 0 0 #ff4073;
+  margin-left: 10px;
+  transition: 0.4s ease-in-out;
+}
+.btn-contato:hover {
+  background-color: var(--cor-azul);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

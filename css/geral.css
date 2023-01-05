@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+:root{
+    --fonte-principal:'Poppins', sans-serif;
+    --degrade:linear-gradient(90deg, #ee3a78 0%, #ffbb17 100%);
+    --cor-cinza:#313131;
+    --cor-cinza-claro:#777;
+    --cor-azul:#01d5c9;
+    --cor-roxa:#453074;
+}
+.container-main{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 100%;
+}
+body{
+    position: relative;
+}
